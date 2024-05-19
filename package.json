@@ -1,0 +1,50 @@
+{
+  "name": "postcss-vw2rem",
+  "description": "A CSS post-processor that converts vw to rem.",
+  "version": "1.0.0",
+  "author": "peterczg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:peterczg/postcss-pxtorem.git"
+  },
+  "bugs": "https://github.com/peterczg/postcss-pxtorem/issues",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jasmine-node spec"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "husky": "^4.2.3",
+    "jasmine-node": "^1.16.0",
+    "lint-staged": "^10.0.8",
+    "postcss": "^8.0.0",
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "css",
+    "rem",
+    "vw2rem",
+    "vw-to-rem",
+    "vw",
+    "fold",
+    "ipad",
+    "postcss",
+    "postcss-plugin"
+  ],
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  }
+}
