@@ -1,6 +1,6 @@
 # postcss-vw2rem 
 
-A plugin for [PostCSS](https://github.com/ai/postcss) that generates rem units from pixel units.
+A plugin for [PostCSS](https://github.com/ai/postcss) that generates rem units from vw units.
 
 This project is forked from [postcss-pxtorem](https://github.com/cuth/postcss-pxtorem) under the MIT license.
 

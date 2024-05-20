@@ -1,14 +1,14 @@
 {
   "name": "postcss-vw2rem",
   "description": "A CSS post-processor that converts vw to rem.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "peterczg",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:peterczg/postcss-pxtorem.git"
+    "url": "git@github.com:peterczg/postcss-vwtorem.git"
   },
-  "bugs": "https://github.com/peterczg/postcss-pxtorem/issues",
+  "bugs": "https://github.com/peterczg/postcss-vwtorem/issues",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
